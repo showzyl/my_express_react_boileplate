@@ -18,6 +18,3 @@ A workflow with full live reload for webpack&express application.
     * `npm run production` to emit outputs and run the express for production.
     * `npm run build` if you care about what is hold in memory for development...
 
-## Preview
-
-![example preview](http://kenanpengyou.github.io/assets/used-images/projects/express-webpack-full-live-reload-example/preview.gif)
