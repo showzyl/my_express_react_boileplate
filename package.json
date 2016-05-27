@@ -1,12 +1,11 @@
 {
   "name": "express-webpack-full-live-reload-example",
   "version": "1.0.0",
-  "description": "A workflow with full live reload for webpack&express application.",
+  "description": "test",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/kenanpengyou/express-webpack-full-live-reload-example.git"
+    "type": "git"
   },
-  "author": "liangzhu",
+  "author": "",
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=dev supervisor -i client app",
@@ -17,10 +16,15 @@
   "license": "MIT",
   "dependencies": {
     "consolidate": "^0.14.0",
-    "ejs": "^2.4.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "ejs": "^2.4.1"
   },
   "devDependencies": {
+    "antd": "^1.2.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
     "browser-sync": "^2.11.1",
     "chokidar": "^1.4.2",
     "cross-env": "^1.0.7",
@@ -29,10 +33,12 @@
     "file-loader": "^0.8.5",
     "node-sass": "^3.4.2",
     "npm-install-webpack-plugin": "^2.0.2",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
     "reload": "^0.7.0",
     "resolve-url-loader": "^1.4.3",
     "sass-loader": "^3.1.2",
-    "style-loader": "^0.13.0",
+    "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
     "webpack": "^1.12.12",
     "webpack-dev-middleware": "^1.5.1",
